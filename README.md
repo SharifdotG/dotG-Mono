@@ -8,7 +8,7 @@
 - [**JavaScript Sample Code**](./Screenshots/JavaScript.png)
 - [**HTML Sample Code**](./Screenshots/HTML.png)
 - [**CSS Sample Code**](./Screenshots/CSS.png)
-- [**Nerd Font**] (./Screenshots/NerdFont.png)
+- [**Nerd Font**](./Screenshots/NerdFont.png)
 
 ## **Download**
 
