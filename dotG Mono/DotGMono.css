@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Thin.woff2') format('woff2'), url('TTF/DotGMono-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedThin.woff2') format('woff2'), url('TTF/DotGMono-ExtendedThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ThinOblique.woff2') format('woff2'), url('TTF/DotGMono-ThinOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-ThinOblique.woff2') format('woff2'), url('TTF/DotGMono-ThinOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedThinOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedThinOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedThinOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedThinOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ThinItalic.woff2') format('woff2'), url('TTF/DotGMono-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedThinItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtraLight.woff2') format('woff2'), url('TTF/DotGMono-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedExtraLight.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtraLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtraLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-ExtraLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtraLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedExtraLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedExtraLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtraLightItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedExtraLightItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Light.woff2') format('woff2'), url('TTF/DotGMono-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedLight.woff2') format('woff2'), url('TTF/DotGMono-ExtendedLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-LightOblique.woff2') format('woff2'), url('TTF/DotGMono-LightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-LightOblique.woff2') format('woff2'), url('TTF/DotGMono-LightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedLightOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedLightOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-LightItalic.woff2') format('woff2'), url('TTF/DotGMono-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedLightItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Regular.woff2') format('woff2'), url('TTF/DotGMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Extended.woff2') format('woff2'), url('TTF/DotGMono-Extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-Oblique.woff2') format('woff2'), url('TTF/DotGMono-Oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-Oblique.woff2') format('woff2'), url('TTF/DotGMono-Oblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-Italic.woff2') format('woff2'), url('TTF/DotGMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Medium.woff2') format('woff2'), url('TTF/DotGMono-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedMedium.woff2') format('woff2'), url('TTF/DotGMono-ExtendedMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-MediumOblique.woff2') format('woff2'), url('TTF/DotGMono-MediumOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-MediumOblique.woff2') format('woff2'), url('TTF/DotGMono-MediumOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedMediumOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedMediumOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedMediumOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedMediumOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-MediumItalic.woff2') format('woff2'), url('TTF/DotGMono-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedMediumItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedMediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-SemiBold.woff2') format('woff2'), url('TTF/DotGMono-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedSemiBold.woff2') format('woff2'), url('TTF/DotGMono-ExtendedSemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-SemiBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-SemiBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-SemiBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-SemiBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedSemiBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedSemiBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedSemiBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedSemiBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-SemiBoldItalic.woff2') format('woff2'), url('TTF/DotGMono-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedSemiBoldItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedSemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Bold.woff2') format('woff2'), url('TTF/DotGMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedBold.woff2') format('woff2'), url('TTF/DotGMono-ExtendedBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-BoldOblique.woff2') format('woff2'), url('TTF/DotGMono-BoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-BoldOblique.woff2') format('woff2'), url('TTF/DotGMono-BoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-BoldItalic.woff2') format('woff2'), url('TTF/DotGMono-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedBoldItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtraBold.woff2') format('woff2'), url('TTF/DotGMono-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedExtraBold.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtraBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtraBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-ExtraBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtraBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedExtraBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedExtraBoldOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraBoldOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtraBoldItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedExtraBoldItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-Heavy.woff2') format('woff2'), url('TTF/DotGMono-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/DotGMono-ExtendedHeavy.woff2') format('woff2'), url('TTF/DotGMono-ExtendedHeavy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-HeavyOblique.woff2') format('woff2'), url('TTF/DotGMono-HeavyOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('WOFF2/DotGMono-HeavyOblique.woff2') format('woff2'), url('TTF/DotGMono-HeavyOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('WOFF2/DotGMono-ExtendedHeavyOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedHeavyOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('WOFF2/DotGMono-ExtendedHeavyOblique.woff2') format('woff2'), url('TTF/DotGMono-ExtendedHeavyOblique.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-HeavyItalic.woff2') format('woff2'), url('TTF/DotGMono-HeavyItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'dotG Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/DotGMono-ExtendedHeavyItalic.woff2') format('woff2'), url('TTF/DotGMono-ExtendedHeavyItalic.ttf') format('truetype');
+}
